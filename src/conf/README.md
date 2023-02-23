@@ -1,0 +1,17 @@
+The configuration of TransFuzz.(Ts.json)
+- `fuzz_time` : Time of a complete fuzzy test. (/hour)
+- `job_nums` : The number of concurrent call cores is set according to the local computer configuration.
+- `loop_nums`: The number of iterations to mutate.
+- `mutate_nums`: The number of seeds picked from the seed pool each time.
+- `log_path` : The address of the log file.
+- `seeds_path`: The address of JS seeds path.
+- `seeds_ast_path`: The parsed AST storage address.
+- `dataset_path`: The save address of the generated dataset after preprocessing.
+- `new_ast_path`: The mutated AST storage address.
+- `new_seeds_path`: The mutated JS program save address.
+- `to_path`: The translated JS program save address.
+- `bug_keep_path`: The test case storage address that triggers the bug.
+- `invalid_bug_path`: Invalid bug save address found in the experiment.
+- `found_bug_path`: The bug save address that has been found in the experiment.
+- `bug_dict_path`: The bug save address.
+- `filter_bug_path`: Filtered bug save address.

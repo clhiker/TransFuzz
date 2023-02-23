@@ -1,0 +1,18 @@
+{
+  "babel": {
+    "ori": [],
+    "syntax": [],
+    "semantics": []
+  },
+  "swc": {
+    "ori": [],
+    "syntax": [],
+    "semantics": []
+  },
+  "special": [
+    "Math.random()",
+    "setTimeout",
+    "http",
+    "Date"
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "fuzz_time": 72,
+  "job_nums": 20,
+  "loop_nums": 1,
+  "mutate_nums": 1000,
+  "leaves_nums": 1,
+  "log_path": "ts_log/ts_fuzz.log",
+  "seeds_path": "../corpus/es6lit/seeds",
+  "seeds_ast_path": "../corpus/es6lit/ast",
+  "dataset_path": "../corpus/es6lit/new-dataset",
+  "new_ast_path": "../corpus/es6lit/new_ast",
+  "new_seeds_path": "../corpus/es6lit/new_seeds",
+  "to_path": "../corpus/es6lit/to_path",
+  "bug_keep_path": "../corpus/es6lit/bug",
+  "invalid_bug_path": "bug/invalid-bug.json",
+  "found_bug_path": "bug/found-bug.json",
+  "bug_dict_path": "bug/bug.json",
+  "filter_bug_path": "bug/filter-bug.json"
+}
