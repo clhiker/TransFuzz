@@ -31,7 +31,7 @@ pip3 install -r requirement.txt
 ## Tips
 
 ### configuration
-Please refer conf/README.md for writing the configuration file. 
+Please refer src/conf/README.md for writing the configuration file. 
 
 ### preprocess
 ```shell
