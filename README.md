@@ -1,6 +1,6 @@
 
 # TransFuzz
-Source code of "Detecting JavaScript Transpiler bugs with Grammar-guided Mutation"
+Source code of [Detecting JavaScript Transpiler bugs with Grammar-guided Mutation](https://ieeexplore.ieee.org/abstract/document/10123443).
 
 ## Environment
 Tested on Ubuntu 20.04 with following environment.
